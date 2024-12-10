@@ -12,6 +12,7 @@
         <class>com.innowise.ticketbookingsystem.model.Session</class>
         <class>com.innowise.ticketbookingsystem.model.Ticket</class>
         <class>com.innowise.ticketbookingsystem.model.User</class>
+        <class>com.innowise.ticketbookingsystem.model.SessionSeat</class>
         
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/booking-tickets-db"/>
