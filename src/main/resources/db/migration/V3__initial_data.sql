@@ -20,3 +20,7 @@ INSERT INTO Session (id, startDateTime, movie_id) VALUES
   (uuid_generate_v4(), '2024-12-10 19:30:00', (SELECT id FROM Movie WHERE title = 'Веном: Последний танец')),
   (uuid_generate_v4(), '2024-12-10 14:30:00', (SELECT id FROM Movie WHERE title = 'Веном: Последний танец')),
   (uuid_generate_v4(), '2024-12-09 14:30:00', (SELECT id FROM Movie WHERE title = 'Веном: Последний танец'));
+
+INSERT INTO Users (id, email, password, user_role, username) VALUES
+  (uuid_generate_v4(), 'bykovskijura792@gmail.com', '$2a$10$nqkQn1XF6yEeVyPNxpuTUerqAQDOW8Mnee3ozizAN9TUC0sH3AlXm', 'Admin', 'ury123456');
+
